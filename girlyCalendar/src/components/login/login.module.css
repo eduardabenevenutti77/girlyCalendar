@@ -1,0 +1,110 @@
+.title {
+    font-family: "Kavoon", serif;
+    font-size: 30px;
+    color: #ff8fa4;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.card {
+    background-color: white;
+    max-width: 700px;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease;
+}
+
+form {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    background-color: #f9f9f9;
+    width: 350px;
+    height: 35px;
+    border-radius: 6px;
+    font-family: "Jost", sans-serif;
+    color: #333;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+    transition: border-color 0.3s ease;
+}
+
+input:focus {
+    border-color: #ff8fa4;
+    outline: none;
+}
+
+.text {
+    font-family: "Jost", sans-serif;
+    background-color: white;
+    font-size: 16px;
+    text-align: center;
+    /* margin-top: 30px; */
+    color: #5b3a29;
+    padding: 15px;
+    border-radius: 12px;
+    /* max-width: 80%; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.textCampos {
+    font-family: "Jost", sans-serif;
+    background-color: white;
+    font-size: 16px;
+    text-align: center;
+    /* margin-top: 30px; */
+    color: #5b3a29;
+    /* padding: 15px; */
+    border-radius: 12px;
+    /* max-width: 80%; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-family: "Jost";
+    font-size: 16px;
+    margin-top: 15px;
+    padding: 4px;
+}
+
+button:focus {
+    background-color: #ff8fa4;
+}
+
+.textLink {
+    font-family: "Jost";
+    background-color: white;
+    margin-top: 50px;
+    color: #b74d61;
+}
+
+.inter {
+    font-family: "Inter", sans-serif;
+}
+
+.kavoon-regular {
+    font-family: "Kavoon", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.jost {
+    font-family: "Jost", sans-serif;
+}
