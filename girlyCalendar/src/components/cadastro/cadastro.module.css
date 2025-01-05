@@ -55,6 +55,8 @@ input:focus {
     /* margin-top: 30px; */
     color: #5b3a29;
     padding: 15px;
+    margin-bottom: 0px;
+    /* padding-bottom: 4px; */
     border-radius: 12px;
     /* max-width: 80%; */
     margin-left: auto;
@@ -86,18 +88,6 @@ button {
 
 button:focus {
     background-color: #ff8fa4;
-}
-
-.textLink {
-    font-family: "Jost";
-    background-color: white;
-    margin-top: 50px;
-    color: #b74d61;
-}
-
-.Link {
-    background-color: white;
-    color: #b74d61;
 }
 
 .inter {

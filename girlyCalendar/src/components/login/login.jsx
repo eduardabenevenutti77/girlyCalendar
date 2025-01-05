@@ -1,4 +1,5 @@
 import style from "./login.module.css"
+import { Link } from "react-router-dom";
 
 export default function Login() {
     return (
@@ -17,7 +18,7 @@ export default function Login() {
                     <button>Registre-se</button>
                 </form>
 
-                <p className={style.textLink}>Ainda sem conta? Cadastre-se agora e comece a organizar seus dias com estilo! 🚀</p>
+                <p className={style.textLink}>Ainda sem conta? <Link to='/cadastro' className={style.Link}>Cadastre-se agora</Link> e comece a organizar seus dias com estilo! 🚀</p>
             </div>
         </>
     )
