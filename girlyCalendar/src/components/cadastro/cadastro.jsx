@@ -20,6 +20,7 @@ export default function Cadastro() {
                     <button>Registre-se</button>
                 </form>
 
+                <p className={styles.details}>Pequenos momentos podem se transformar em grandes histórias</p>
                 {/* <p className={styles.textLink}>Ainda sem conta? <Link to='/cadastro' className={style.Link}>Cadastre-se agora</Link> e comece a organizar seus dias com estilo! 🚀</p> */}
             </div>
         </>

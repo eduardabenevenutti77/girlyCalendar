@@ -90,6 +90,16 @@ button:focus {
     background-color: #ff8fa4;
 }
 
+.details {
+    font-family: "Kavoon";
+    font-size: 14px;
+    color: #f2b1bd;
+    margin-bottom: 15px;
+    text-align: center;
+    /* font-weight: bold; */
+    background-color: white;
+}
+
 .inter {
     font-family: "Inter", sans-serif;
 }
